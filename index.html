@@ -2,9 +2,22 @@
 <head>
     <title>Javascript</title>
     <script language="javascript" type="text/javascript" src="script.js"></script>
+    <style>
+        * {
+            margin: auto; /* Center everything */
+            width: 50%;
+        }
+        button {
+            background-color: lightblue;
+            text-align: center;
+            /* height: 3em; */
+            border-radius: 10px;
+            font-size: 75px;
+        }
+    </style>
 </head>
 
 <body>
-    <input type="button" value="Stop loop" onClick="clearTimeout(myTimer)"/>
+    <button onClick="clearTimeout(myTimer)">Stop the loop!</button>
 </body>
 </html>
